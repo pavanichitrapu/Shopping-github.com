@@ -128,10 +128,10 @@ i {
 }
 @media (max-width: 600px) {
     #sidebar{
-        display:block;
+        display:none;
         width:400px;
     }
     #accordian{
-        display:block;
+        display:none;
     
 }
