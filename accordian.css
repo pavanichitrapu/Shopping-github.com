@@ -1,5 +1,5 @@
 #sidebar{
-    
+    display:none;
    position: absolute;
    top:0;
     right:0;
@@ -36,7 +36,7 @@
 }
 
 #accordian {
-   
+   display:none;
 position: absolute;
 top:0;
   right:0;
@@ -128,7 +128,10 @@ i {
 }
 @media (max-width: 600px) {
     #sidebar{
+        display:block;
         width:400px;
     }
+    #accordian{
+        display:block;
     
 }
