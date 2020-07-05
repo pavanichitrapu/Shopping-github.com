@@ -37,7 +37,7 @@ function createProductCard(e){
   mainCardDiv.classList.add('main-card-container');
 
   var productLink=document.createElement('a');
-  productLink.href='/details.html?p='+e.id;
+  productLink.href='./details.html?p='+e.id;
 
   var productImg = document.createElement('img');
   productImg.classList.add('card-img');
